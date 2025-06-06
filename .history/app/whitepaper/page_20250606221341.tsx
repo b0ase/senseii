@@ -442,15 +442,13 @@ const WhitepaperPage = () => {
 
   return (
     <div className="min-h-screen bg-black">
-      <Header />
-      
-      {/* Whitepaper Header */}
-      <div className="bg-black/50 border-b border-white/10 mt-20">
-        <div className="container mx-auto px-4 py-6">
+      {/* Header */}
+      <div className="sticky top-0 z-50 bg-black/20 backdrop-blur-md border-b border-white/10">
+        <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <BookOpen className="w-8 h-8 text-white" />
-              <h1 className="text-3xl font-bold gradient-text">Senseii Whitepaper</h1>
+              <Bitcoin className="w-8 h-8 text-white" />
+              <h1 className="text-2xl font-bold gradient-text">Senseii Whitepaper</h1>
             </div>
             <div className="text-sm text-gray-400">
               {sections.reduce((total, section) => total + section.concepts.length, 0)} concepts

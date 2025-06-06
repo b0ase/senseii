@@ -11,7 +11,6 @@ const Header = () => {
     { name: 'Learn', href: '#courses', icon: BookOpen },
     { name: 'Satoshi AI', href: '#satoshi-agent', icon: Cpu },
     { name: 'Whitepaper', href: '/whitepaper', icon: FileText },
-    { name: '$SENSEII', href: '/token', icon: Coins },
     { name: 'Incubator', href: '#incubator', icon: Rocket },
     { name: 'Community', href: '#community', icon: Users },
   ]
