@@ -180,18 +180,8 @@ const Header = () => {
                   </button>
                 )
               })}
-              <button 
-                className="btn-secondary text-center mt-4"
-                onClick={() => handleNavigation('/learning')}
-              >
+              <button className="btn-primary text-center mt-4">
                 Start Learning
-              </button>
-              <button 
-                className="btn-primary flex items-center justify-center space-x-2 mt-2"
-                onClick={() => handleHandCashSignIn()}
-              >
-                <User className="w-4 h-4" />
-                <span>Sign in with HandCash</span>
               </button>
             </nav>
           </div>

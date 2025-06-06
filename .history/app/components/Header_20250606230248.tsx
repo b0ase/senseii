@@ -4,13 +4,12 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Menu, X, Bitcoin, Cpu, BookOpen, Users, Rocket, FileText, Coins, User, LogOut } from 'lucide-react'
 import { useRouter, usePathname } from 'next/navigation'
+import { useAuth } from '../contexts/AuthContext'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const router = useRouter()
   const pathname = usePathname()
-  // TODO: Add auth context after creating it
-  // const { user, isAuthenticated, signIn, signOut } = useAuth()
 
   const navItems = [
     { name: 'Learn', href: '/#courses', icon: BookOpen },
@@ -52,41 +51,6 @@ const Header = () => {
     }
   }
 
-  const handleHandCashSignIn = () => {
-    // Store auth state for the callback
-    const authState = {
-      state: generateRandomString(32),
-      codeVerifier: generateRandomString(128),
-      timestamp: Date.now()
-    }
-    
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('handcash_auth_state', JSON.stringify(authState))
-      
-      // Redirect to HandCash OAuth
-      const params = new URLSearchParams({
-        response_type: 'code',
-        client_id: process.env.NEXT_PUBLIC_HANDCASH_APP_ID || '',
-        redirect_uri: `${window.location.origin}/auth/handcash/callback`,
-        scope: 'public_profile pay receive',
-        state: authState.state,
-        code_challenge: authState.codeVerifier,
-        code_challenge_method: 'plain'
-      })
-
-      window.location.href = `https://app.handcash.io/oauth?${params.toString()}`
-    }
-  }
-
-  const generateRandomString = (length: number): string => {
-    const charset = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~'
-    let result = ''
-    for (let i = 0; i < length; i++) {
-      result += charset[Math.floor(Math.random() * charset.length)]
-    }
-    return result
-  }
-
   return (
     <motion.header
       initial={{ y: -100, opacity: 0 }}
@@ -126,24 +90,14 @@ const Header = () => {
             })}
           </nav>
 
-          {/* CTA & Auth Buttons */}
-          <div className="hidden md:flex items-center space-x-4">
+          {/* CTA Button */}
+          <div className="hidden md:block">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => handleNavigation('/learning')}
-              className="btn-secondary text-sm px-4 py-2"
+              className="btn-primary"
             >
               Start Learning
-            </motion.button>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={() => handleHandCashSignIn()}
-              className="btn-primary flex items-center space-x-2"
-            >
-              <User className="w-4 h-4" />
-              <span>Sign in with HandCash</span>
             </motion.button>
           </div>
 
@@ -180,18 +134,8 @@ const Header = () => {
                   </button>
                 )
               })}
-              <button 
-                className="btn-secondary text-center mt-4"
-                onClick={() => handleNavigation('/learning')}
-              >
+              <button className="btn-primary text-center mt-4">
                 Start Learning
-              </button>
-              <button 
-                className="btn-primary flex items-center justify-center space-x-2 mt-2"
-                onClick={() => handleHandCashSignIn()}
-              >
-                <User className="w-4 h-4" />
-                <span>Sign in with HandCash</span>
               </button>
             </nav>
           </div>
