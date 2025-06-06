@@ -117,9 +117,6 @@ export default function Home() {
       {/* Education Section */}
       <EducationSection />
 
-      {/* Incubator Section */}
-      <IncubatorSection />
-
       {/* Footer */}
       <Footer />
     </main>

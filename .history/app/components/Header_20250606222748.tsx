@@ -15,8 +15,8 @@ const Header = () => {
     { name: 'Satoshi AI', href: '/#satoshi-agent', icon: Cpu },
     { name: 'Whitepaper', href: '/whitepaper', icon: FileText },
     { name: '$SENSEII', href: '/token', icon: Coins },
-    { name: 'Incubator', href: '/incubator', icon: Rocket },
-    { name: 'Community', href: '/community', icon: Users },
+    { name: 'Incubator', href: '/#incubator', icon: Rocket },
+    { name: 'Community', href: '/#community', icon: Users },
   ]
 
   const handleNavigation = (href: string) => {

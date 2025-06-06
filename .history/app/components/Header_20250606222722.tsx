@@ -15,8 +15,8 @@ const Header = () => {
     { name: 'Satoshi AI', href: '/#satoshi-agent', icon: Cpu },
     { name: 'Whitepaper', href: '/whitepaper', icon: FileText },
     { name: '$SENSEII', href: '/token', icon: Coins },
-    { name: 'Incubator', href: '/incubator', icon: Rocket },
-    { name: 'Community', href: '/community', icon: Users },
+    { name: 'Incubator', href: '/#incubator', icon: Rocket },
+    { name: 'Community', href: '/#community', icon: Users },
   ]
 
   const handleNavigation = (href: string) => {
@@ -60,31 +60,28 @@ const Header = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <motion.button
+          <motion.div
             whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="flex items-center space-x-2 cursor-pointer"
-            onClick={handleLogoClick}
+            className="flex items-center space-x-2"
           >
             <Bitcoin className="w-8 h-8 text-white" />
             <span className="text-2xl font-bold gradient-text">Senseii</span>
-          </motion.button>
+          </motion.div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => {
               const Icon = item.icon
               return (
-                <motion.button
+                <motion.a
                   key={item.name}
-                  onClick={() => handleNavigation(item.href)}
+                  href={item.href}
                   whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
                   className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors duration-300"
                 >
                   <Icon className="w-4 h-4" />
                   <span>{item.name}</span>
-                </motion.button>
+                </motion.a>
               )
             })}
           </nav>
@@ -123,14 +120,15 @@ const Header = () => {
               {navItems.map((item) => {
                 const Icon = item.icon
                 return (
-                  <button
+                  <a
                     key={item.name}
-                    onClick={() => handleNavigation(item.href)}
-                    className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors duration-300 py-2 text-left"
+                    href={item.href}
+                    className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors duration-300 py-2"
+                    onClick={() => setIsMenuOpen(false)}
                   >
                     <Icon className="w-4 h-4" />
                     <span>{item.name}</span>
-                  </button>
+                  </a>
                 )
               })}
               <button className="btn-primary text-center mt-4">

@@ -15,8 +15,8 @@ const Header = () => {
     { name: 'Satoshi AI', href: '/#satoshi-agent', icon: Cpu },
     { name: 'Whitepaper', href: '/whitepaper', icon: FileText },
     { name: '$SENSEII', href: '/token', icon: Coins },
-    { name: 'Incubator', href: '/incubator', icon: Rocket },
-    { name: 'Community', href: '/community', icon: Users },
+    { name: 'Incubator', href: '/#incubator', icon: Rocket },
+    { name: 'Community', href: '/#community', icon: Users },
   ]
 
   const handleNavigation = (href: string) => {
@@ -123,14 +123,15 @@ const Header = () => {
               {navItems.map((item) => {
                 const Icon = item.icon
                 return (
-                  <button
+                  <a
                     key={item.name}
-                    onClick={() => handleNavigation(item.href)}
-                    className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors duration-300 py-2 text-left"
+                    href={item.href}
+                    className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors duration-300 py-2"
+                    onClick={() => setIsMenuOpen(false)}
                   >
                     <Icon className="w-4 h-4" />
                     <span>{item.name}</span>
-                  </button>
+                  </a>
                 )
               })}
               <button className="btn-primary text-center mt-4">
