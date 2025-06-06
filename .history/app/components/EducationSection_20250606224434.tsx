@@ -163,7 +163,6 @@ const EducationSection = () => {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="w-full btn-primary"
-                  onClick={() => window.location.href = path.link}
                 >
                   Start Learning
                 </motion.button>

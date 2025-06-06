@@ -149,7 +149,6 @@ const CoursesSection = () => {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   className="w-full btn-primary flex items-center justify-center"
-                  onClick={() => window.location.href = course.link}
                 >
                   <Play className="w-4 h-4 mr-2" />
                   Start Course
