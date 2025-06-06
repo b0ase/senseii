@@ -121,7 +121,7 @@ const SatoshiAgent = () => {
             <div className="flex items-center pb-4 border-b border-white/20 mb-4">
               <div className="flex items-center space-x-3">
                 <div className="relative">
-                                      <div className="w-10 h-10 bg-gradient-to-br from-gray-600 to-gray-800 rounded-full flex items-center justify-center">
+                  <div className="w-10 h-10 bg-gradient-to-br from-bitcoin-orange to-bitcoin-dark rounded-full flex items-center justify-center">
                     <Bot className="w-6 h-6 text-white" />
                   </div>
                   <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-slate-800"></div>
@@ -150,7 +150,7 @@ const SatoshiAgent = () => {
                       <div className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ${
                         message.sender === 'user' 
                           ? 'bg-primary-600' 
-                          : 'bg-gradient-to-br from-gray-600 to-gray-800'
+                          : 'bg-gradient-to-br from-bitcoin-orange to-bitcoin-dark'
                       }`}>
                         {message.sender === 'user' ? (
                           <User className="w-4 h-4 text-white" />
@@ -177,14 +177,14 @@ const SatoshiAgent = () => {
                   className="flex justify-start"
                 >
                   <div className="flex items-start space-x-2">
-                                          <div className="w-8 h-8 bg-gradient-to-br from-gray-600 to-gray-800 rounded-full flex items-center justify-center">
+                    <div className="w-8 h-8 bg-gradient-to-br from-bitcoin-orange to-bitcoin-dark rounded-full flex items-center justify-center">
                       <Bitcoin className="w-4 h-4 text-white" />
                     </div>
                     <div className="bg-white/10 p-3 rounded-lg">
                       <div className="flex space-x-1">
-                        <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"></div>
-                        <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce animation-delay-200"></div>
-                        <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce animation-delay-400"></div>
+                        <div className="w-2 h-2 bg-bitcoin-orange rounded-full animate-bounce"></div>
+                        <div className="w-2 h-2 bg-bitcoin-orange rounded-full animate-bounce animation-delay-200"></div>
+                        <div className="w-2 h-2 bg-bitcoin-orange rounded-full animate-bounce animation-delay-400"></div>
                       </div>
                     </div>
                   </div>
@@ -201,14 +201,14 @@ const SatoshiAgent = () => {
                 onChange={(e) => setInputText(e.target.value)}
                 onKeyPress={handleKeyPress}
                 placeholder="Ask Satoshi about Bitcoin SV..."
-                className="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400"
+                className="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-bitcoin-orange"
               />
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleSendMessage}
                 disabled={!inputText.trim() || isTyping}
-                                  className="bg-gray-600 hover:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed text-white p-2 rounded-lg transition-colors duration-300"
+                className="bg-bitcoin-orange hover:bg-bitcoin-dark disabled:opacity-50 disabled:cursor-not-allowed text-white p-2 rounded-lg transition-colors duration-300"
               >
                 <Send className="w-5 h-5" />
               </motion.button>

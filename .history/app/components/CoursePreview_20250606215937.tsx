@@ -35,7 +35,7 @@ const CoursePreview = () => {
   ]
 
   return (
-    <section id="courses" className="section-padding bg-black">
+    <section id="courses" className="section-padding bg-gradient-to-br from-slate-800 to-slate-900">
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -67,7 +67,7 @@ const CoursePreview = () => {
               <div className={`h-48 ${course.image} relative`}>
                 <div className="absolute inset-0 bg-black/20"></div>
                 <div className="absolute top-4 left-4">
-                  <span className="bg-white text-black px-3 py-1 rounded-full text-sm font-semibold">
+                  <span className="bg-bitcoin-orange text-white px-3 py-1 rounded-full text-sm font-semibold">
                     {course.level}
                   </span>
                 </div>

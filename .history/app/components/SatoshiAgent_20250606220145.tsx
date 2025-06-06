@@ -208,7 +208,7 @@ const SatoshiAgent = () => {
                 whileTap={{ scale: 0.95 }}
                 onClick={handleSendMessage}
                 disabled={!inputText.trim() || isTyping}
-                                  className="bg-gray-600 hover:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed text-white p-2 rounded-lg transition-colors duration-300"
+                className="bg-bitcoin-orange hover:bg-bitcoin-dark disabled:opacity-50 disabled:cursor-not-allowed text-white p-2 rounded-lg transition-colors duration-300"
               >
                 <Send className="w-5 h-5" />
               </motion.button>

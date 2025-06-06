@@ -37,12 +37,12 @@ const WhitepaperPage = () => {
         {
           id: 'vision',
           title: 'The Senseii Vision',
-          content: 'Create an AI-first education platform that teaches the original Bitcoin vision and the theoretical foundations for next-generation internet systems.'
+          content: 'Create an AI-first education platform that teaches the original Bitcoin vision while building tools for the future internet economy.'
         },
         {
           id: 'mission',
           title: 'Core Mission',
-          content: 'Educate developers on how to build economically weighted search systems that could replace monopolistic infrastructures.'
+          content: 'Replace Google\'s monopolistic search infrastructure with economically weighted, community-driven alternatives.'
         },
         {
           id: 'foundation',
@@ -279,76 +279,76 @@ const WhitepaperPage = () => {
       ]
     },
     {
-      id: 'digital-economics',
-      title: 'Digital Content Economics Theory',
+      id: 'content-creation',
+      title: 'Content Creation Economy',
       icon: Zap,
       concepts: [
         {
-          id: 'nft-fundamentals',
-          title: 'NFT Technology Principles',
-          content: 'Learn the technical and economic principles behind non-fungible tokens and digital ownership models.'
+          id: 'instant-nfts',
+          title: 'Instant NFT Creation',
+          content: 'Convert any photo, video, or audio into tradeable NFTs with a single click using phone camera.'
         },
         {
-          id: 'content-granularity',
-          title: 'Content Granularity and Value',
-          content: 'Study how content can be broken into granular pieces for individual monetization and ownership tracking.'
+          id: 'frame-tokenization',
+          title: 'Video Frame Tokenization',
+          content: 'Break videos into millions of individual frames, each tokenizable and sellable separately.'
         },
         {
-          id: 'distributed-systems',
-          title: 'Distributed Content Networks',
-          content: 'Understand how content distribution can be decentralized using blockchain and peer-to-peer technologies.'
+          id: 'distributed-storage',
+          title: 'Distributed Content Storage',
+          content: 'Content distributed across millions of nodes, creating robust CDN replacement infrastructure.'
         },
         {
-          id: 'access-control-cryptography',
-          title: 'Cryptographic Access Control',
-          content: 'Learn cryptographic methods for controlling access to digital content with mathematical precision.'
+          id: 'selective-access',
+          title: 'Granular Access Control',
+          content: 'Sell access to specific scenes, frames, or portions of content with cryptographic precision.'
         },
         {
-          id: 'revenue-distribution-algorithms',
+          id: 'revenue-automation',
           title: 'Automated Revenue Distribution',
-          content: 'Study algorithms for automatically distributing revenue among multiple content contributors.'
+          content: 'Revenue automatically splits among all contributors: creators, editors, platforms, distributors.'
         },
         {
-          id: 'digital-rights-management',
-          title: 'Blockchain-Based DRM',
-          content: 'Explore how blockchain technology can create more effective digital rights management systems.'
+          id: 'anti-piracy',
+          title: 'Cryptographic Anti-Piracy',
+          content: 'Each access key is traceable to the buyer, making unauthorized sharing detectable and actionable.'
         }
       ]
     },
     {
-      id: 'developer-education',
-      title: 'Blockchain Development Education',
+      id: 'developer-tools',
+      title: 'Developer Infrastructure',
       icon: Code,
       concepts: [
         {
-          id: 'bitcoin-script-fundamentals',
-          title: 'Bitcoin Script Programming Principles',
-          content: 'Master the fundamentals of Bitcoin\'s native scripting language for implementing business logic.'
+          id: 'bitcoin-script',
+          title: 'Bitcoin Script Development',
+          content: 'Learn and implement complex business logic using Bitcoin\'s native scripting language.'
         },
         {
-          id: 'api-design-patterns',
-          title: 'Blockchain API Design Patterns',
-          content: 'Learn best practices for designing APIs that interact with Bitcoin SV blockchain infrastructure.'
+          id: 'api-integration',
+          title: 'Comprehensive APIs',
+          content: 'Full suite of APIs for integrating Bitcoin SV functionality into any application or service.'
         },
         {
-          id: 'development-methodologies',
-          title: 'Blockchain Development Methodologies',
-          content: 'Study development approaches specific to blockchain applications: testing, debugging, and deployment strategies.'
+          id: 'development-environment',
+          title: 'Integrated Development Environment',
+          content: 'Complete IDE for Bitcoin SV development with testing, debugging, and deployment tools.'
         },
         {
-          id: 'open-source-contribution',
-          title: 'Open Source Blockchain Ecosystem',
-          content: 'Understand how to contribute to and leverage open-source blockchain development tools and libraries.'
+          id: 'library-ecosystem',
+          title: 'Open Source Libraries',
+          content: 'Extensive collection of open-source libraries and tools for rapid Bitcoin SV development.'
         },
         {
-          id: 'enterprise-architecture',
-          title: 'Enterprise Blockchain Architecture',
-          content: 'Learn architectural patterns for building scalable, production-ready blockchain applications.'
+          id: 'enterprise-sdk',
+          title: 'Enterprise SDK',
+          content: 'Production-ready software development kit for enterprise Bitcoin SV application development.'
         },
         {
-          id: 'testing-strategies',
-          title: 'Blockchain Testing Strategies',
-          content: 'Master testing methodologies specific to blockchain applications: unit testing, integration testing, and chain testing.'
+          id: 'testing-framework',
+          title: 'Testing Infrastructure',
+          content: 'Comprehensive testing framework for ensuring Bitcoin SV applications work reliably at scale.'
         }
       ]
     },

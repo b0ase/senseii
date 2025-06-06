@@ -279,39 +279,39 @@ const WhitepaperPage = () => {
       ]
     },
     {
-      id: 'digital-economics',
-      title: 'Digital Content Economics Theory',
+      id: 'content-creation',
+      title: 'Content Creation Economy',
       icon: Zap,
       concepts: [
         {
-          id: 'nft-fundamentals',
-          title: 'NFT Technology Principles',
-          content: 'Learn the technical and economic principles behind non-fungible tokens and digital ownership models.'
+          id: 'instant-nfts',
+          title: 'Instant NFT Creation',
+          content: 'Convert any photo, video, or audio into tradeable NFTs with a single click using phone camera.'
         },
         {
-          id: 'content-granularity',
-          title: 'Content Granularity and Value',
-          content: 'Study how content can be broken into granular pieces for individual monetization and ownership tracking.'
+          id: 'frame-tokenization',
+          title: 'Video Frame Tokenization',
+          content: 'Break videos into millions of individual frames, each tokenizable and sellable separately.'
         },
         {
-          id: 'distributed-systems',
-          title: 'Distributed Content Networks',
-          content: 'Understand how content distribution can be decentralized using blockchain and peer-to-peer technologies.'
+          id: 'distributed-storage',
+          title: 'Distributed Content Storage',
+          content: 'Content distributed across millions of nodes, creating robust CDN replacement infrastructure.'
         },
         {
-          id: 'access-control-cryptography',
-          title: 'Cryptographic Access Control',
-          content: 'Learn cryptographic methods for controlling access to digital content with mathematical precision.'
+          id: 'selective-access',
+          title: 'Granular Access Control',
+          content: 'Sell access to specific scenes, frames, or portions of content with cryptographic precision.'
         },
         {
-          id: 'revenue-distribution-algorithms',
+          id: 'revenue-automation',
           title: 'Automated Revenue Distribution',
-          content: 'Study algorithms for automatically distributing revenue among multiple content contributors.'
+          content: 'Revenue automatically splits among all contributors: creators, editors, platforms, distributors.'
         },
         {
-          id: 'digital-rights-management',
-          title: 'Blockchain-Based DRM',
-          content: 'Explore how blockchain technology can create more effective digital rights management systems.'
+          id: 'anti-piracy',
+          title: 'Cryptographic Anti-Piracy',
+          content: 'Each access key is traceable to the buyer, making unauthorized sharing detectable and actionable.'
         }
       ]
     },

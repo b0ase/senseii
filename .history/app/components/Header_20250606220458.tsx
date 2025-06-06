@@ -10,7 +10,6 @@ const Header = () => {
   const navItems = [
     { name: 'Learn', href: '#courses', icon: BookOpen },
     { name: 'Satoshi AI', href: '#satoshi-agent', icon: Cpu },
-    { name: 'Whitepaper', href: '/whitepaper', icon: FileText },
     { name: 'Incubator', href: '#incubator', icon: Rocket },
     { name: 'Community', href: '#community', icon: Users },
   ]
