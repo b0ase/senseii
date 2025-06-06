@@ -1,0 +1,93 @@
+
+1
+Senseii Search
+Senseii Search is a proposal for the creation of a HumInt powered platform that focuses on
+finding and cultivating a network of peers on the MetaNet who provide truthful information and
+good quality education.
+Our ultimate goal is the accurate assignment and management of Intellectual Property rights to
+enable the equitable distribution of capital amongst billions of stakeholders, using the Bitcoin
+Network.
+*Note for the reader: In this paper, the term ‘Bitcoin’ always refers to the original implementation
+of the Bitcoin protocol now known as ‘BitcoinSV’ (BSV), and not BTC.
+Copyright: Richard Boase, December 1st 2022
+based on ideas and code developed by and with Alex Breadman
+rboase2020@gmail.com
+Senseii LTD
+Introduction:
+Although Bitcoin (BSV) is 13 years old, good information about it is hard to
+find as competitors have an incentive to suppress it, and deep pockets with
+which to game Google’s algorithms.
+As a result, most people think BTC is Bitcoin not BSV, and students,
+entrepreneurs and business people are not familiar with the opportunities
+that Bitcoin truly offers.
+Consequently, there’s a lack of strong teachers in the Bitcoin space, and
+pitching Bitcoin to students is inefficient. They may be in the middle of a
+three-year education and not ready to start a business on a technology
+which is often misrepresented in Google searches, and profoundly
+misunderstood by the media.
+Additionally, money raised by Bitcoin entrepreneurs is usually not raised in
+Bitcoin or a national CBDC, nor are shares in Bitcoin companies issued on
+Bitcoin by default yet.
+Because of this, entrepreneurs must be trusted not to waste funds and
+equity cannot be atomically swapped or tracked in real-time. Many of the
+benefits of building on Bitcoin are lost as Bitcoin entrepreneurs get bogged
+down in the bureaucracy of legacy systems.
+What we need is an architecture that supports Bitcoin entrepreneurs by
+allowing them to raise money directly in Bitcoin from sources like the Tulip
+Trust, in such a way that they can also benefit from tax advantages like the
+SEIS program offered by HMRC.
+To solve this problem we propose an app that allows student entrepreneurs
+to capture, format, distribute and capitalise on their Intellectual Property in
+a methodological framework where they can prove the order of events
+concerning the creation or exchange of digital goods and services,
+including the issuing of securities, to the satisfaction of HMRC and Bitcoin
+investors.
+Every Dojo needs a Senseii
+To achieve our goals, Senseii LTD proposes an intuitive contracting platform called
+‘Senseii’ that automatically tokenizes and indexes the Intellectual Property of the user,
+in return for a 1% stake in their IP token, whatever that token contains. IP Tokens may
+contain photos, emails, text messages, forum comments, or any digital asset that a user
+produces on their device.
+Senseii’s architecture means that Bitcoin entrepreneurs with the most valuable
+conglomerations of IP will rise to the top of Senseii’s search index as they gather more
+intellectual capital from their peers in the form of likes, comments, and other tokenised
+IP that links value back to them.
+We call this new paradigm ‘Economically Weighted Search’ (EWS) and when combined
+with Peer-Reviewed Validation (a.k.a. “Social Proof”), it has the power to replace
+Google’s ‘PageRank’ altogether and break Google down into hundreds of competing
+search engines.
+Here’s how it works: Users can tokenize anything they like on their device, from
+pictures, to videos, emails, text-messages etc at the push of a button, and Senseii
+hashes it, creates a token with the hash, assigns the user rights to 99% of the sale of
+their IP token and adds hashes of their identity into the IP Token. Senseii then copies
+the users IP token for fast indexing and lookup on the Senseii database and assigns 1%
+ownership of the revenue from the sale of the IP token to Senseii LTD.
+The Senseii platform incrementally teaches entrepreneurs how to tweak their IP to raise
+capital, pay out salaries, dividends and royalties, deliver annuities, issue coupons and
+pay other forms of interest on the completion of unilateral contracts, offered by Senseii
+LTD. (An example of a unilateral contract might be: “Populate the topic ‘Mathematics’ for
+10p, and contracts are paid out as verified peers review the content). *See “Pay to Correct”.
+Senseii’s methodology will allow investors to capitalise on a vast new swathe of Bitcoin
+entrepreneurs in a legally compliant, auditable and private way, where balances and
+revenues can be tracked and shared in real-time, shares in companies traded instantly,
+agreements signed and board-meetings held; and where companies can be bought and
+sold as single NFTs with all their associated IP, revenues, staff, partnerships, records
+etc, intact.
+Tools: Shuriken and Kitana
+Senseii has developed two main tools to help entrepreneurs get the most out of Bitcoin:
+Shuriken and Kitana.
+Shuriken automatically captures and tokenizes all users’ IP for them, regardless of what apps
+they’re using.
+Kitana continuously references, indexes and updates the state of users’ IP for instant lookup,
+retrieval and settlement of consideration.
+User’s IP can be referenced arbitrarily and recursively, allowing an unbounded arrangement of
+contractual obligations to be placed on it at any time.
+Senseii provides near instant updates on the global state of contractual agreements on a user’s
+IP, and can order and attribute payments faster and at a lower cost than any other decentralised
+system.
+Using Senseii, a one-word answer in an SMS text-message can instantly deliver
+fractions of a penny to its author, plus thousands of invested stakeholders
+simultaneously.
+Senseii also allows users to choose the level of bandwidth they are willing to share to become a
+node in a distributed CDN. The more IP a user creates and shares whilst using Senseii on their
+devices, the wealthier they become.

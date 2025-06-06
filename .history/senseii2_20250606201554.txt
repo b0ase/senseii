@@ -1,0 +1,254 @@
+
+14
+Senseii Search
+Senseii accounts for the economic weight backlinked to a user’s IP, and searches for relevant
+content according to its economic weight.
+If peers’ IP were only searched for by cost to advertise, ads from big corporations would always
+rise to the top of Senseii’s search index and drown out small entrepreneurs and startups, just
+like they do in Google searches today.
+Instead, Senseii judges users according to the economic weight attached to their IP and the IP
+of their peers. For example, IP associated with a well-known HandCash handle, with links to
+many other HandCash users, will climb Senseii’s ranking faster than one with payments and
+links to fewer.
+Senseii seamlessly pays more attention to content with valuable associated IP and stronger
+social bonds than to bots and trolls without any economic weight (a.k.a “Skeletons”).
+Using this framework, users can easily query other users directly and ask to see their IP on any
+given topic in a secure environment, to assess if they’re the right match for a job, contract,
+position or other designation.
+Senseii Contracts Module
+Similar in feel to Draw.io and Miro, Senseii Contracts allows for the creation of modular
+organizations built entirely from smart contracts.
+Illustration of a simple composable modular smart contract
+using nLockTime to pay an annuity every 100,000 blocks
+Using these drag and drop modules, employees can be added to the workflow as easily as
+dragging and dropping their HandCash or Paymail onto the canvas. ‘Smart companies’ can be
+minted as single NFTs whose value represents all of its stock, labour, revenues, costs etc.
+This allows anyone using Senseii to create efficient, streamlined organisations with absolute
+transparency, that in turn allows shareholders to track the flow of revenue in real time from the
+creation or acquisition of a product, to its salesperson and sale, to see how revenue is
+distributed around the organisation from the marketing department to the executive suite etc.
+Once minted these smart companies’ articles of association can be changed by mutual
+agreement of a majority of shareholders using additive key slices, in the Senseii Security
+module.
+Additionally, the stock price of these companies can instantly be determined in Senseii Share for
+their accuracy, such that assessing the fitness of any given enterprise and the profitability of an
+investment in it, can be actively monitored and tracked in real time.
+Senseii’s Primary Product: Kitana
+From a user’s perspective, the most important part of Senseii is the intuitive teaching interface
+that teaches users how smart contracts work, and how to create their own, using drag and drop
+tokens that link to each other. Users can assign any tokenized content to any other, and arrange
+the contractual relationships between consumers, salespeople and shareholders, with a range
+of easy to use tools. Examples of tools to apply to smart contracts include ‘Encrypt’, ‘Decrypt’,
+‘Pay to Unlock’, ‘Pay to Lock’, ‘Rent revenue until’, ‘Return by’, ‘Forfeit if’ etc. ’
+Drag-And-Drop smart contracts for selling educational courses
+Senseii Social Graph Module:
+The Senseii Social Graph is built on a recursive, economically weighted graph architecture
+called ‘MetaGraph’ where streaming payments
+reward the Original Poster (OP), or drain them,
+according to how many interactions they gather,
+and what contractual obligations have been set.
+Skins built on top of the MetaGraph can look like
+Twitter, or Facebook, but comments have
+micropayments as small $0.0001 attached, so
+popular tweets can grow in value as they attract
+attention, and can be culled (sold) by the user as
+and when they wish to recapture the fruits of their
+intellectual labour.
+Additionally, the value of the Bitcoin attached to
+any given comment will likely fluctuate upwards
+the longer users refuse to sell ownership of their
+ideas. This is akin to ‘HODLing’ their intellectual
+capital on the MetaNet until they feel it is valuable enough to sell. Senseii LTD anticipates that
+this form of HODLing (and economic cultivation of a users IP by its user) will in time completely
+replace the archaic HODL mentality of the BTC culture.
+Self-Organising Intellectual Capital:
+The Senseii Social Graph (or MetaGraph) is a self-organizing, self-referential model, that
+actively rewards ‘Proof of Work’ (proof of participation) by design.
+In other words, the more work a user puts into building connections in their social graph by
+adding content and interacting with other users, the more trusted peer reviews they accrue and
+the more money they make.
+As a result of these interactions, we expect them to offer more contracts, which will lead to the
+faster incorporation of bodies of valuable knowledge around them and the creation and
+production of more valuable companies, with more verified IP and more potential to raise
+capital.
+Linking Pseudonymous Identities:
+Pseudonymous profiles (nyms) accrue value in the form of Social Proof, according to how
+reliable they are, how accurate the content they share is, and how many links to related
+valuable IP they have in their network.
+A nym’s network is its net worth.
+Senseii is designed explicitly to foster a community of student entrepreneurs who can share
+their ideas freely, and not fear losing control of their own intellectual property. Good quality IP
+can be quickly and efficiently capitalised, and teachers promoted appropriately according to their
+knowledge and history. The emphasis is always on learning and building, and the proper
+assignment of intellectual property. Trolls are naturally excluded in the same way disruptive
+students are excluded from classrooms.
+Senseii Wallet Module
+Senseii Wallet Module teaches students how to keep track of streaming revenues and multiple
+balances for the different tokenized IP they own and lets them arrange simultaneous payments
+to an unbounded number of stakeholders.
+Senseii allows students to share balances privately and publicly across organisations and
+groups, giving them the freedom to start liquidity pools, lending circles, credit agreements with
+repayment and interest payments, and annuities and bonus payouts upon the completion of
+contractual arrangements.
+Senseii Ledger Module
+An extension of the Senseii Wallet, ‘Senseii Ledger’ allows for the real-time tracking of balances
+and content in a spreadsheet format, such that inventory can be tracked and revenue accounted
+for in a single spreadsheet.
+Senseii Store Module (The Token Library)
+Senseii Store allows users to index and reference their IP according to their content type like
+Video, Audio or Picture, or by volume (quantity and rarity of their tokens), or by their economic
+weight etc. Once added to their store, a user’s IP can be used in the composition of smart
+contracts using Kitana for quick and easy deployment.
+Senseii Signature Module
+A core part of ‘Mimoto’, the Senseii Signature Module, ensures users can securely sign their
+contracts by employing HMACs with combined cryptographic algorithms (e.g. Sha-1 &
+RIPEMD), to generate HD keys that link multiple single-use signatures back to their real identity
+securely, without compromising their privacy.
+Mimoto allows users to prove to the tax-office or any other legal entity that requires compliance
+that they created, bought, rented or sold, any token for which there was a capital gains event, or
+other reporting need.
+The terms and conditions of use (the EULA) of Senseii on any device explicitly states that
+without first linking a set of keys to a legal identity, a user cannot use Senseii to lay legal claim
+to the ownership of any Tokenised IP generated whilst using Senseii on their device. In other
+words, unless a user takes the time to register their identity on our product properly, Senseii
+does not guarantee users will be able to claim ownership of their IP. However: it is anticipated
+that for most mobile phone users, the use of Senseii on their device will implicitly link them to
+their government identity via their phone contract, and that in most cases, this will be accepted
+in a court of law as valid evidence of their identity in the case of any disputes.
+Senseii Contract Market
+Contract Market allows users to further tokenise and sell the contracts they have composed
+such that other users can buy them and incorporate them into their own businesses and
+business logic easily and simply. Composable contracts may even be melted down and
+re-constituted, provided that more than 51% of the stakeholders in any given token assent to
+their melting and recomposition.
+Senseii Select: Choosing a Teacher
+In some ways the most valuable part of the entire platform is “Senseii Select”, where teachers
+can post their profiles and link to the content and courses they’ve tokenized and offered to
+students.
+Teachers may offer students bounties in return for the solving of problems in the courses they
+offer, or scholarships that assist students to learn more. They can create learning paths, and set
+targets and goals for their students to achieve. (for example “Make a Brain Wallet”) and
+students can use ‘Senseii Select’ to choose the teachers they prefer, the courses and modules
+they wish to study, and the learning path which suits them best.
+A simple introductory course might include ‘Learn how to create simple Smart Contracts
+using Kitana’ whilst a more complex course might be ‘Build compounding multiple revenue
+streams selling pictures of Cats’.
+Student Teacher Module
+Here both teachers and students can sell their time and expertise directly to their peers via any
+video or audio feed including Zoom, Microsoft teams etc.
+Teachers can choose the number of students they admit into any video class, as well as set the
+rate at which they charge, and can even charge by the second if they choose.
+Senseii NFT Camera Module
+A quick and easy way to introduce students to the idea of tokenizing data and capturing their
+own IP is through the ‘Senseii Camera’ module. Senseii NFT Camera allows users to convert
+their phone camera pictures into NFTs instantly, and publish them to the blockchain as
+encrypted files to which only the user has a key.
+Users can then generate multiple keys to the same picture, and sell these different keys to
+different users to decrypt the pictures they buy. This methodology ensures that a user who buys
+a picture and then sells their key can always be identified. (This is useful if a buyer decides to
+break a contract with a seller and publishes a key that they’ve bought on a file-sharing network).
+In this way, consumers are incentivised to remain honest since their signature will match with
+the key they’ve bought.
+An unlimited quantity of keys can be listed and sold using the Senseii exchange module, and
+revenues from sales can be streamed to multiple recipients (for example, model, studio, makeup
+artist, etc.).
+Using the above methodology, companies like ‘Ninja Punk Girls LTD’ can expand massively to
+include thousands of content producers and millions of customers, and content for distributed
+CDNs can be split up amongst millions of peers, ready for delivery to consumers.
+Senseii Image Exchange Module
+Users can list, licence, sell and rent out their tokenized pictures using the Senseii Exchange
+Module, which in turn allows users to create multiple streams of revenue by selling selective
+access to many pictures and picture collections.
+Collections can be previewed by offering one picture for free, and subsequent pictures for a
+price. Unique cat photos for example could be sold for as little as $0.0001 each, and a user
+could build an entire multi-million dollar business by selling and licensing only cat photos.
+Senseii Stream Module
+Senseii Stream allows the tokenization of users' videos such that a single video can be broken
+down into millions of separate and individual frames and tokenized in Senseii Store.
+These tokens can be encrypted using HMACs (as above), such that access can be sold
+selectively to small individual scenes in a movie or the whole movie, or indeed single frames.
+This methodology also allows large files to be distributed across the network similar to Bittorrent
+files and re-assembled by users, who buy unique keys (as above) inside magnet links on the
+Senseii Exchange.
+We anticipate this kind of distributed streaming methodology to replace CDNs altogether in
+future, as it creates a very robust data-delivery network where payment for hosting can be
+spread widely amongst the broadest possible network of peers, and making Denial-of-Service
+attacks unfeasibly costly.
+Senseii Jobs
+A crucial aspect of the Senseii platform is its ability to self-organise and pay for contractors to
+build out the most valuable parts of itself. Senseii Jobs exists to enable building out the Senseii
+Platform and any other business on the MetaNet.
+Jobs and contracts can be posted along with nyms, recommendations and reviews, and the
+economic weight associated with a nym’s comments, tweets, and content can all be taken into
+consideration.
+This gives users of Senseii Jobs a useful economic reference against which to index and judge
+the quality and reliability of the contractors they choose to employ before they employ them.
+Senseii Teams
+Having posted a personal profile, users can select other member’s profiles and include them in
+their organisations. Senseii Teams allows users to place team members in hierarchical
+flowcharts and add payrolls, streaming payouts, dividends and share options, and even set KPIs
+for their employees and add bonuses for sales targets etc.
+Senseii Teams Module also allows for the incorporation of a team into a single company token,
+with all its contractually binding logic included, such that shares in the company can be issued
+and sold on the Senseii exchange or any other supported exchanges. These incorporated
+tokens may have a single issuer, and a single price, but can represent the interests of millions or
+even billions of potential stakeholders in the enterprise.
+Using this architecture allows for the creation, cultivation and trade of any size organisation
+without disrupting the organisation's suppliers, customers, shareholders, staff etc. and without
+the need to rely on archaic legacy bureaucracies to rubber stamp the sale and transfer ahead of
+the event.
+All business activities done on the Senseii platform can be proved backwards in time, provided
+users adhere to the Senseii app’s EULA.
+Senseii Share Module
+A crucial aspect of the Senseii platform is transparency. Users can opt to share any aspect of
+their business with any other user for any reason using Senseii Share. For example, an
+entrepreneur might choose to share their company’s revenues with their shareholders in real
+time, or their marketing department's expenses with their data-analytics department.
+The advantage of Senseii Share is that any part of the business can be made transparent to any
+other part, or even made public, which in turn can help it to optimise, be accountable and
+transparent to its shareholders and the general public.
+This ability to share information publicly in a secure, transparent and auditable way will lend
+massive amounts of confidence and value to collective enterprises.
+Because of the availability of such a system, banks and institutions who rely on the approval of
+the electorate and the continued flow of public money will increasingly want to demonstrate that
+they can prove their reserves, and it will lend credence and weight to their legitimacy by
+demonstrating that they can be trusted.
+Integration with a public global monetary system, rather than a collection of private monetary
+systems, will add strength and a new level of dynamism to companies who choose to build on
+the blockchain natively.
+Additionally, Senseii Share will allow users to issue shares in any part of their business,
+enabling them to raise additional capital to fund just those parts of the business which need it.
+Senseii Wrap
+While smart-contracting can already be done with native BSV, increasingly stable-coins, other
+cryptocurrencies and CBDCs will need to be incorporated into user’s smart contracts.
+To achieve this, they will need to be locked into escrow contracts such that they can be
+unlocked according to the terms of the smart contracts they are in. Senseii Wrap allows the
+wrapping of these alternative digital assets so that they can be easily listed and added to
+Senseii Smart Contracts.
+Senseii takes advantage of the fact that packets over IPv6 can themselves be tokenized as they
+cross the network. This means that packets which contain cryptocurrency tokens or digital
+currency (CBDC) tokens can be locked and unlocked in smart contracts on the BSV network.
+Because of BSV’s natural capacity to scale to accommodate all traffic over IPv4 and IPv6,
+Senseii can offer its users the ability to capture and contract with so-called ‘Crypto Currency
+Networks’’ on all other public blockchains, and by offering this feature, Senseii can help onboard
+the $1 Trillion Dollar Crypto-currency industry onto BSV, by cutting their cost of settlement down
+by 99%.
+Senseii Legal
+Allows users to upload their legally issued documents such as Tax information, incorporation
+documents etc. such that they can be tokenized, signed and attached securely to users smart
+contracts.
+Senseii Legal also allows selective access to investors, lawyers, team-members etc. as required
+using Senseii Share.
+Senseii Notes
+A simple notepad that users can use to timestamp their ideas as they occur to them.
+Senseii Sounds Module
+Users can use the Senseii Sounds Module to automatically record and tokenize their phone
+calls and original audio tracks to the blockchain for inclusion in their contracts. Senseii Sounds
+captures and hashes the data as it flows through a user’s device, and then hashes the array to
+a single token which can be reconstructed by the user when called on.
+Senseii Security Module
+In the Security Module, users learn how to create, apply and deploy HMACs, n of m multisigs,
+additive keys and other complex security arrangements for inclusion in their products and
+contracts.
+(We anticipate that the Senseii Security Module might plug into nChain’s proprietary ‘Kensei’
+platform for managing corporate network security if necessary)
