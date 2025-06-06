@@ -88,7 +88,7 @@ const CoursePreview = () => {
                   {course.description}
                 </p>
                 
-                <div className="flex items-center justify-between text-sm text-gray-400 mb-4">
+                <div className="flex items-center justify-between text-sm text-gray-400 mb-6">
                   <div className="flex items-center space-x-1">
                     <Clock className="w-4 h-4" />
                     <span>{course.duration}</span>
@@ -105,16 +105,10 @@ const CoursePreview = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-center justify-between mb-6">
-                  <span className="text-2xl font-bold text-white">{course.price}</span>
-                  <span className="text-sm text-gray-400">One-time payment</span>
-                </div>
-                
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="w-full btn-primary flex items-center justify-center space-x-2"
-                  onClick={() => window.location.href = course.link}
                 >
                   <span>Start Learning</span>
                   <ArrowRight className="w-4 h-4" />
