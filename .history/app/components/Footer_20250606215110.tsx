@@ -160,10 +160,10 @@ const Footer = () => {
               <a href="/whitepaper" className="hover:text-white transition-colors duration-300">
                 Whitepaper
               </a>
-                              <div className="flex items-center space-x-1">
+              <div className="flex items-center space-x-1">
                 <span>Powered by</span>
-                <Bitcoin className="w-4 h-4 text-white" />
-                <span className="text-white font-semibold">Bitcoin SV</span>
+                <Bitcoin className="w-4 h-4 text-bitcoin-orange" />
+                <span className="text-bitcoin-orange font-semibold">Bitcoin SV</span>
               </div>
             </div>
           </div>

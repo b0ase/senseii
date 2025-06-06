@@ -9,37 +9,37 @@ const FeatureSection = () => {
       icon: Brain,
       title: 'Satoshi AI Teacher',
       description: 'Learn directly from an AI trained on the complete Bitcoin knowledge base, original whitepaper, and scaling solutions.',
-      color: 'from-gray-600 to-gray-800'
+      color: 'from-blue-500 to-purple-600'
     },
     {
       icon: Wallet,
       title: 'Wallet-Based Authentication',
       description: 'Secure login with your Bitcoin SV wallet. Your learning progress and payments are tracked on the blockchain.',
-      color: 'from-gray-500 to-gray-700'
+      color: 'from-green-500 to-teal-600'
     },
     {
       icon: Zap,
       title: 'Micropayment Learning',
       description: 'Pay tiny amounts for quality education. £0.50-£1.00 per hour means learning is accessible to everyone.',
-      color: 'from-gray-700 to-gray-900'
+      color: 'from-yellow-500 to-orange-600'
     },
     {
       icon: BookOpen,
       title: 'Structured Curriculum',
       description: 'Comprehensive learning paths from Bitcoin basics to advanced development, all focused on the original vision.',
-      color: 'from-gray-600 to-gray-800'
+      color: 'from-purple-500 to-pink-600'
     },
     {
       icon: Users,
       title: 'Community Learning',
       description: 'Join study groups, ask questions, and learn alongside other students building on Bitcoin SV.',
-      color: 'from-gray-500 to-gray-700'
+      color: 'from-indigo-500 to-blue-600'
     },
     {
       icon: Shield,
       title: 'Original Bitcoin Focus',
       description: 'Learn the true Bitcoin protocol that scales globally, without the confusion of BTC limitations.',
-      color: 'from-gray-700 to-gray-900'
+      color: 'from-red-500 to-pink-600'
     }
   ]
 

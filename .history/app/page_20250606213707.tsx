@@ -26,7 +26,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black"></div>
         <div className="absolute inset-0 opacity-20" style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M40 40L20 20v40h40V20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
-        }}></div>
+        }}></div></div>
         
         <div className="relative z-10 text-center section-padding">
           <div className="container-custom">
@@ -42,7 +42,7 @@ export default function Home() {
                 transition={{ delay: 0.3, duration: 0.5 }}
                 className="mb-8"
               >
-                <Bitcoin className="w-24 h-24 mx-auto text-white animate-float" />
+                <Bitcoin className="w-24 h-24 mx-auto text-bitcoin-orange animate-float" />
               </motion.div>
               
               <h1 className="text-6xl md:text-8xl font-bold mb-6 gradient-text text-shadow">
@@ -100,7 +100,7 @@ export default function Home() {
           transition={{ repeat: Infinity, duration: 2 }}
           className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
         >
-          <ChevronDown className="w-8 h-8 text-gray-400" />
+          <ChevronDown className="w-8 h-8 text-bitcoin-orange" />
         </motion.div>
       </section>
 

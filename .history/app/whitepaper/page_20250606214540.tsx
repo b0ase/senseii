@@ -567,8 +567,8 @@ const WhitepaperPage = () => {
               >
                 <div className="card-glass p-8">
                   <div className="flex items-center mb-8">
-                                         <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-white to-gray-300 flex items-center justify-center mr-4">
-                                              <SectionIcon className="w-8 h-8 text-black" />
+                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-bitcoin-orange to-bitcoin-dark flex items-center justify-center mr-4">
+                      <SectionIcon className="w-8 h-8 text-white" />
                     </div>
                     <div>
                       <h2 className="text-3xl font-bold text-white">{section.title}</h2>

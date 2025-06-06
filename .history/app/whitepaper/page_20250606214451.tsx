@@ -531,24 +531,24 @@ const WhitepaperPage = () => {
               how we learn, create, and exchange value in the digital economy.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-                             <div className="bg-white/5 rounded-lg p-4">
-                 <div className="text-2xl font-bold text-white">
-                   {sections.reduce((total, section) => total + section.concepts.length, 0)}
-                 </div>
-                 <div className="text-sm text-gray-400">Core Concepts</div>
-               </div>
-               <div className="bg-white/5 rounded-lg p-4">
-                 <div className="text-2xl font-bold text-white">{sections.length}</div>
-                 <div className="text-sm text-gray-400">Major Themes</div>
-               </div>
-               <div className="bg-white/5 rounded-lg p-4">
-                 <div className="text-2xl font-bold text-white">100%</div>
-                 <div className="text-sm text-gray-400">Bitcoin SV</div>
-               </div>
-               <div className="bg-white/5 rounded-lg p-4">
-                 <div className="text-2xl font-bold text-white">∞</div>
-                 <div className="text-sm text-gray-400">Potential</div>
-               </div>
+              <div className="bg-white/5 rounded-lg p-4">
+                <div className="text-2xl font-bold text-bitcoin-orange">
+                  {sections.reduce((total, section) => total + section.concepts.length, 0)}
+                </div>
+                <div className="text-sm text-gray-400">Core Concepts</div>
+              </div>
+              <div className="bg-white/5 rounded-lg p-4">
+                <div className="text-2xl font-bold text-bitcoin-orange">{sections.length}</div>
+                <div className="text-sm text-gray-400">Major Themes</div>
+              </div>
+              <div className="bg-white/5 rounded-lg p-4">
+                <div className="text-2xl font-bold text-bitcoin-orange">100%</div>
+                <div className="text-sm text-gray-400">Bitcoin SV</div>
+              </div>
+              <div className="bg-white/5 rounded-lg p-4">
+                <div className="text-2xl font-bold text-bitcoin-orange">∞</div>
+                <div className="text-sm text-gray-400">Potential</div>
+              </div>
             </div>
           </motion.div>
 
@@ -567,8 +567,8 @@ const WhitepaperPage = () => {
               >
                 <div className="card-glass p-8">
                   <div className="flex items-center mb-8">
-                                         <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-white to-gray-300 flex items-center justify-center mr-4">
-                                              <SectionIcon className="w-8 h-8 text-black" />
+                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-bitcoin-orange to-bitcoin-dark flex items-center justify-center mr-4">
+                      <SectionIcon className="w-8 h-8 text-white" />
                     </div>
                     <div>
                       <h2 className="text-3xl font-bold text-white">{section.title}</h2>

@@ -87,7 +87,7 @@ const Header = () => {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors duration-300 py-2"
+                    className="flex items-center space-x-2 text-gray-300 hover:text-bitcoin-orange transition-colors duration-300 py-2"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     <Icon className="w-4 h-4" />

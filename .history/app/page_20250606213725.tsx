@@ -42,7 +42,7 @@ export default function Home() {
                 transition={{ delay: 0.3, duration: 0.5 }}
                 className="mb-8"
               >
-                <Bitcoin className="w-24 h-24 mx-auto text-white animate-float" />
+                <Bitcoin className="w-24 h-24 mx-auto text-bitcoin-orange animate-float" />
               </motion.div>
               
               <h1 className="text-6xl md:text-8xl font-bold mb-6 gradient-text text-shadow">
@@ -100,7 +100,7 @@ export default function Home() {
           transition={{ repeat: Infinity, duration: 2 }}
           className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
         >
-          <ChevronDown className="w-8 h-8 text-gray-400" />
+          <ChevronDown className="w-8 h-8 text-bitcoin-orange" />
         </motion.div>
       </section>
 

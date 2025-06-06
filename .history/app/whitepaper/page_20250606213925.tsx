@@ -446,7 +446,7 @@ const WhitepaperPage = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <Bitcoin className="w-8 h-8 text-white" />
+              <Bitcoin className="w-8 h-8 text-bitcoin-orange" />
               <h1 className="text-2xl font-bold gradient-text">Senseii Whitepaper</h1>
             </div>
             <div className="text-sm text-gray-400">
@@ -462,7 +462,7 @@ const WhitepaperPage = () => {
           <div className="sticky top-24">
             <div className="card-glass p-6 mb-6">
               <h2 className="text-xl font-bold text-white mb-4 flex items-center">
-                <BookOpen className="w-5 h-5 mr-2 text-white" />
+                <BookOpen className="w-5 h-5 mr-2 text-bitcoin-orange" />
                 Navigation Index
               </h2>
               <nav className="space-y-2">
@@ -474,7 +474,7 @@ const WhitepaperPage = () => {
                         onClick={() => scrollToSection(section.id)}
                         className={`w-full text-left p-3 rounded-lg transition-all duration-300 flex items-center ${
                           activeSection === section.id
-                            ? 'bg-white text-black'
+                            ? 'bg-bitcoin-orange text-white'
                             : 'text-gray-400 hover:text-white hover:bg-white/10'
                         }`}
                       >
@@ -491,7 +491,7 @@ const WhitepaperPage = () => {
                             <button
                               key={concept.id}
                               onClick={() => scrollToSection(concept.id)}
-                              className="block w-full text-left text-xs text-gray-500 hover:text-white transition-colors duration-200 py-1"
+                              className="block w-full text-left text-xs text-gray-500 hover:text-bitcoin-orange transition-colors duration-200 py-1"
                             >
                               {concept.title}
                             </button>
@@ -531,24 +531,24 @@ const WhitepaperPage = () => {
               how we learn, create, and exchange value in the digital economy.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-                             <div className="bg-white/5 rounded-lg p-4">
-                 <div className="text-2xl font-bold text-white">
-                   {sections.reduce((total, section) => total + section.concepts.length, 0)}
-                 </div>
-                 <div className="text-sm text-gray-400">Core Concepts</div>
-               </div>
-               <div className="bg-white/5 rounded-lg p-4">
-                 <div className="text-2xl font-bold text-white">{sections.length}</div>
-                 <div className="text-sm text-gray-400">Major Themes</div>
-               </div>
-               <div className="bg-white/5 rounded-lg p-4">
-                 <div className="text-2xl font-bold text-white">100%</div>
-                 <div className="text-sm text-gray-400">Bitcoin SV</div>
-               </div>
-               <div className="bg-white/5 rounded-lg p-4">
-                 <div className="text-2xl font-bold text-white">∞</div>
-                 <div className="text-sm text-gray-400">Potential</div>
-               </div>
+              <div className="bg-white/5 rounded-lg p-4">
+                <div className="text-2xl font-bold text-bitcoin-orange">
+                  {sections.reduce((total, section) => total + section.concepts.length, 0)}
+                </div>
+                <div className="text-sm text-gray-400">Core Concepts</div>
+              </div>
+              <div className="bg-white/5 rounded-lg p-4">
+                <div className="text-2xl font-bold text-bitcoin-orange">{sections.length}</div>
+                <div className="text-sm text-gray-400">Major Themes</div>
+              </div>
+              <div className="bg-white/5 rounded-lg p-4">
+                <div className="text-2xl font-bold text-bitcoin-orange">100%</div>
+                <div className="text-sm text-gray-400">Bitcoin SV</div>
+              </div>
+              <div className="bg-white/5 rounded-lg p-4">
+                <div className="text-2xl font-bold text-bitcoin-orange">∞</div>
+                <div className="text-sm text-gray-400">Potential</div>
+              </div>
             </div>
           </motion.div>
 
@@ -567,8 +567,8 @@ const WhitepaperPage = () => {
               >
                 <div className="card-glass p-8">
                   <div className="flex items-center mb-8">
-                                         <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-white to-gray-300 flex items-center justify-center mr-4">
-                                              <SectionIcon className="w-8 h-8 text-black" />
+                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-bitcoin-orange to-bitcoin-dark flex items-center justify-center mr-4">
+                      <SectionIcon className="w-8 h-8 text-white" />
                     </div>
                     <div>
                       <h2 className="text-3xl font-bold text-white">{section.title}</h2>

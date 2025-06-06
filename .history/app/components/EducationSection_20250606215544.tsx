@@ -149,7 +149,7 @@ const EducationSection = () => {
                   <ul className="space-y-2">
                     {path.topics.map((topic, topicIndex) => (
                       <li key={topicIndex} className="text-sm text-gray-400 flex items-center">
-                        <Zap className="w-3 h-3 text-white mr-2 flex-shrink-0" />
+                        <Zap className="w-3 h-3 text-bitcoin-orange mr-2 flex-shrink-0" />
                         {topic}
                       </li>
                     ))}

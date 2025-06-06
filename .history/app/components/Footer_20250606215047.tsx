@@ -97,7 +97,7 @@ const Footer = () => {
                 <li key={tool.name}>
                   <a
                     href={tool.href}
-                    className="text-gray-400 hover:text-white transition-colors duration-300 flex items-center group"
+                    className="text-gray-400 hover:text-bitcoin-orange transition-colors duration-300 flex items-center group"
                   >
                     <span>{tool.name}</span>
                     <ExternalLink className="w-3 h-3 ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -115,7 +115,7 @@ const Footer = () => {
                 <li key={path.name}>
                   <a
                     href={path.href}
-                    className="text-gray-400 hover:text-white transition-colors duration-300 flex items-center group"
+                    className="text-gray-400 hover:text-bitcoin-orange transition-colors duration-300 flex items-center group"
                   >
                     <span>{path.name}</span>
                     <ExternalLink className="w-3 h-3 ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -151,19 +151,19 @@ const Footer = () => {
             </div>
             
             <div className="flex items-center space-x-6 text-sm text-gray-400">
-              <a href="#privacy" className="hover:text-white transition-colors duration-300">
+              <a href="#privacy" className="hover:text-bitcoin-orange transition-colors duration-300">
                 Privacy Policy
               </a>
-              <a href="#terms" className="hover:text-white transition-colors duration-300">
+              <a href="#terms" className="hover:text-bitcoin-orange transition-colors duration-300">
                 Terms of Service
               </a>
-              <a href="/whitepaper" className="hover:text-white transition-colors duration-300">
+              <a href="#whitepaper" className="hover:text-bitcoin-orange transition-colors duration-300">
                 Whitepaper
               </a>
-                              <div className="flex items-center space-x-1">
+              <div className="flex items-center space-x-1">
                 <span>Powered by</span>
-                <Bitcoin className="w-4 h-4 text-white" />
-                <span className="text-white font-semibold">Bitcoin SV</span>
+                <Bitcoin className="w-4 h-4 text-bitcoin-orange" />
+                <span className="text-bitcoin-orange font-semibold">Bitcoin SV</span>
               </div>
             </div>
           </div>

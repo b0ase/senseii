@@ -123,7 +123,7 @@ const CoursesSection = () => {
                 </div>
 
                 <div className="text-sm text-gray-400 mb-4">
-                  <span className="text-white font-semibold">Instructor:</span> {course.instructor}
+                  <span className="text-bitcoin-orange font-semibold">Instructor:</span> {course.instructor}
                 </div>
               </div>
 
