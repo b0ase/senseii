@@ -120,7 +120,7 @@ export default function ErgodicStructuresPage() {
                 and payment systems. Don't get trapped in crypto-native thinking.
               </p>
               <p className="text-orange-200 mt-4 font-semibold">
-                Sometimes the most pretentious advice contains the most practical wisdom.
+                Sometimes the most pretentious advice contains the most practical wisdom. 
               </p>
             </section>
           </div>
